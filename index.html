@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Horizon AR Glasses</title>
+
+    <style>
+      body {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        background-image: url("pics/future.jpg");
+        background-size: cover;
+        font-family: Arial, sans-serif;
+      }
+
+      h1 {
+        text-align: center;
+        color: white;
+        padding: 20px;
+      }
+
+      p {
+        font-size: 18px;
+        color: white;
+        margin: 20px;
+      }
+
+      h2 {
+        color: white;
+      }
+
+      .section,
+      .section-video {
+        opacity: 0; /* Start hidden */
+        transform: translateY(50px); /* Start with slight translation */
+        transition: opacity 1s ease-out, transform 1s ease-out;
+      }
+
+      .fade-in {
+        opacity: 1;
+        transform: translateY(0); /* Reset translation */
+      }
+
+      .section {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 20px;
+        padding: 20px;
+        background: rgba(0, 0, 0, 0.7);
+        border-radius: 10px;
+      }
+
+      .section img {
+        max-width: 300px;
+        height: auto;
+        margin-left: 20px;
+        border-radius: 5px;
+      }
+
+      .section-video {
+        text-align: center;
+        margin: 20px;
+        padding: 20px;
+        background: rgba(0, 0, 0, 0.7);
+        border-radius: 10px;
+      }
+
+      video {
+        width: 80%;
+        max-width: 600px;
+        margin-top: 20px;
+        border-radius: 10px;
+      }
+
+      footer {
+        text-align: center;
+        color: white;
+        margin: 100px;
+      }
+
+      footer a {
+        color: white;
+        margin: 0 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Horizon AR Glasses: Step Into a New Reality</h1>
+
+    <!-- Section 1 -->
+    <div class="section">
+      <div>
+        <h2>Immersive Augmented Reality</h2>
+        <p>
+          Horizon AR Glasses bring you a fully immersive augmented reality
+          experience, blending the digital and physical worlds seamlessly.
+          Whether you’re navigating your city, exploring virtual landscapes, or
+          enhancing your productivity, these glasses are the gateway to the next
+          generation of smart technology. - Horizon AR glasses are sleek,
+          lightweight, and designed to look like modern eyewear, making them
+          perfect for both work and play. With cutting-edge holographic display
+          technology, you can interact with digital objects in the real world
+          like never before.
+        </p>
+      </div>
+      <img src="pics/1.jpg" alt="Immersive AR Image" />
+    </div>
+
+    <!-- Section 2 -->
+    <div class="section">
+      <div>
+        <h2>Lightweight, Stylish Design</h2>
+        <p>
+          Horizon AR glasses combine high-performance tech with a design that
+          feels comfortable and looks sleek.
+        </p>
+        <p>
+          Hands-Free Control - Use voice commands or subtle gestures to control
+          your digital interface, allowing for multitasking and easy navigation
+          without taking out your phone.
+        </p>
+        <p>
+          Multi-Device Integration - Sync with your smartphone, tablet, or PC to
+          access notifications, apps, and content with a glance. Real-time
+          updates are always within your line of sight.
+        </p>
+        <p>
+          Advanced Optics High-resolution lenses with adaptive brightness ensure
+          sharp images in both indoor and outdoor environments.
+        </p>
+        <p>
+          Long Battery Life - Enjoy an entire day of AR-powered experiences
+          thanks to an extended battery life that powers you through meetings,
+          workouts, and leisure.
+        </p>
+      </div>
+      <img src="pics/2.jpg" alt="Stylish Design Image" />
+    </div>
+
+    <!-- Section 3: Video Section -->
+    <div class="section-video">
+      <h2>How It Works</h2>
+      <p>See the Horizon AR Glasses in action by watching the demo below:</p>
+      <video controls>
+        <source src="pics/video.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <p>Step 1: Put on your Horizon AR Glasses like regular eyewear.</p>
+      <p>Step 2: Power on with a single touch or voice command.</p>
+      <p>
+        Step 3: Interact with digital overlays in your environment—navigate
+        virtual maps, attend AR meetings, or play games.
+      </p>
+      <p>Step 4: Sync your devices for a truly connected experience.</p>
+    </div>
+
+    <!-- Section 4 -->
+    <div class="section">
+      <div>
+        <h2>Productivity</h2>
+        <p>
+          1. Oversee tasks with real-time data, calendars, and notifications
+          appearing directly in your field of vision.
+        </p>
+        <p>
+          2. Receive step-by-step directions while walking or driving without
+          looking down at your phone.
+        </p>
+        <p>
+          3. Dive into immersive AR gaming environments where the physical world
+          and digital landscapes combine seamlessly.
+        </p>
+        <p>
+          4. Learn hands-on by interacting with virtual models in real-time,
+          bringing abstract concepts to life.
+        </p>
+        <p>
+          5. Watch movies, sports, or live events projected through your glasses
+          in high definition, anywhere you go.
+        </p>
+      </div>
+      <img src="pics/3.jpg" alt="Productivity Image" />
+    </div>
+
+    <!-- Section 5 -->
+    <div class="section">
+      <div>
+        <h2>Technical Specifications</h2>
+        <p>Display: High-Definition Holographic Lenses</p>
+        <p>Weight: 140 grams (lightweight design)</p>
+        <p>Connectivity: Wi-Fi, Bluetooth 5.0, NFC</p>
+        <p>Control: Voice commands, Gesture Recognition</p>
+        <p>Battery Life: Up to 12 hours on a single charge</p>
+        <p>Operating System Compatibility: iOS, Android, Windows</p>
+        <p>Lens Type: Polarized, Adaptive Brightness</p>
+        <p>Field of View: 50° diagonal</p>
+      </div>
+      <img src="pics/5.jpg" alt="Navigation Image" />
+    </div>
+
+    <!-- Section 6 -->
+    <div class="section">
+      <div>
+        <h2>User Reviews</h2>
+        <p>
+          John D - "Horizon AR glasses have changed how I approach my daily
+          tasks—effortless multitasking!"
+        </p>
+        <p>
+          Sarah K - "The seamless AR experience is like stepping into the
+          future, every time I put them on."
+        </p>
+      </div>
+      <img src="pics/6.jpg" alt="Gaming Image" />
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <p>Pre-order Now for Rs 20000. Delivery in Spring 2025.</p>
+      <a href="#">Instagram</a> | <a href="#">Facebook</a> |
+      <a href="#">Twitter</a>
+    </footer>
+
+    <script>
+      // Function to add 'fade-in' class when an element is in the viewport
+      function fadeInOnScroll(entries, observer) {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("fade-in");
+            observer.unobserve(entry.target); // Stop observing once it's faded in
+          }
+        });
+      }
+
+      // Create an IntersectionObserver instance
+      const observer = new IntersectionObserver(fadeInOnScroll, {
+        threshold: 0.1, // Trigger when 10% of the element is visible
+      });
+
+      // Select all sections to observe
+      const sections = document.querySelectorAll(".section, .section-video");
+      sections.forEach((section) => {
+        observer.observe(section);
+      });
+    </script>
+  </body>
+</html>
